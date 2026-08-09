@@ -1,0 +1,120 @@
+.navbar{
+    background-color: black;
+    height: 10vh;
+    position: sticky;
+    top:0px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    padding:0px;
+    gap:10px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+li{
+   
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+}
+
+.testata{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(yellow,orange);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color:brown;
+    
+}
+
+img{
+    height: 70%;
+    width: 100%;
+}
+
+.row{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form_invio_dati{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.confine {
+    border: 5px solid yellow;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 800px){
+
+    .testata {
+        height: 50vh;
+        width: 100vw;
+    }
+
+    h1{
+        height:30%;
+        width:30%;
+    }
+
+    h3{
+        width: 100vw;
+    }
+
+    .row{
+        flex-direction: column;
+        align-items: start;
+        margin:0px;
+    }
+
+  
+
+    .col-4{
+        padding:0px;
+        width:95vw;
+    }
+
+    .confine{
+        width:95vw;
+        
+    }
+    
+    .container, .container-fluid{
+        padding:0px;
+    }
+
+    .col-12{
+        width:95vw;
+    }
+
+    footer{
+        padding:0px;
+        margin:0px;
+    }
+
+    .col-6{
+        width:100vw;
+        padding:0px;
+    }
+}
